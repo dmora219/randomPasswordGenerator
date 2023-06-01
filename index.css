@@ -55,6 +55,7 @@ span{
 .box-container{
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 .box{
     background: #3b4f6c;
@@ -62,4 +63,12 @@ span{
     width: 211px;
     border-radius: 6px;
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.innerText, .innerText2{
+    color: #55F991;
+    ;
 }
